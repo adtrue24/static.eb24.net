@@ -1,0 +1,36 @@
+@media screen and (min-width: 0px) and (max-width: 619px) {
+    #ad_video_foot_300 , #ad_content_index_300{
+        display:block;
+    }
+    #ad_video_foot_500, #ad_content_index_500 {
+        display:none;
+    }
+    #ad_video_foot_750, #ad_content_index_750 {
+        display:none;
+    }
+}
+@media screen and (min-width: 620px) and (max-width: 930px) {
+    #ad_video_foot_300, #ad_content_index_300{
+        display:none;
+    }
+    #ad_video_foot_500, #ad_content_index_500 {
+        display:block;
+    }
+    #ad_video_foot_750 , #ad_content_index_750{
+        display:none;
+    }
+}
+
+
+@media screen and (min-width: 931px) {
+     #ad_video_foot_300,#ad_content_index_300 {
+        display:none;
+    }
+    #ad_video_foot_500, #ad_content_index_500 {
+        display:none;
+    }
+    #ad_video_foot_750, #ad_content_index_750 {
+        display:block; /*or inline, or whatever */
+
+    }
+}

@@ -110,7 +110,7 @@
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
-  background: url(images/divider.png) repeat-x;
+  text-align: center;
 }
 
 .block-details .item:first-child {

@@ -81,8 +81,10 @@
 
   .rightTopList ul {height:452px; }
 }
-.player{
+.player
+{
     max-width: 1000px;
+	margin: 0 auto;
 }​
 
 

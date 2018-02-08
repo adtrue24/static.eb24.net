@@ -166,6 +166,7 @@
   box-shadow:none;
   text-transform: capitalize;
   background:none;
+  text-align: center;
 }
 
 .addthis_button_favorites, .addthis_button_facebook,  .addthis_button_twitter, .addthis_button_google, .addthis_button_delicious, .addthis_button_digg, .addthis_button_stumbleupon, .addthis_button_google_plusone_share, .addthis_button_linkedin, .addthis_button_expanded

@@ -4,6 +4,8 @@
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -29,12 +31,12 @@
 {
   display:none;
 }
-.leftColumn_Info  { padding-top:20px;  }
+.leftColumn_Info  { padding-top:1px;  }
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 47.5em )
 {
-  .rightColumn { position: absolute; top: 0; right: 0; width: 300px;  }
+  .rightColumn { position: absolute; top: 0; right: 0; width: 312px;  }
   .leftColumn { margin-right: 310px; min-height: 520px;}
   .leftColumn_Info  {   margin-right: 310px; }
   .videoColumn { margin-right: 330px; }
@@ -52,6 +54,7 @@
   	.rightColumn {   border: 0px; }
 
 }
+
 .rightColumn_Ads_1,.rightColumn_Ads_2
 {
 	margin-right: 5px;
@@ -61,6 +64,10 @@
 	border: none;
 	width:300px;
 	height:250px;
+}
+.rightColumn_Ads_1
+{
+  margin-top: 10px
 }
 .player
 {

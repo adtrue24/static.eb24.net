@@ -1,210 +1,198 @@
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-  margin-left: 10px;
-  margin-top: 10px;
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 25px;
+     height: 0;
+     margin-left: 10px;
+     margin-top: 10px;
 }
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.columnsContainer		{ position: relative; margin: .5em;   }
-.leftColumn					{ margin-bottom: .5em;  border: none;   background-color: white; }
-.rightColumn				{ width: 312px;  border: border: none;    background-color: white; text-align: center; }
-
-
-.player_bookshare
-{
-
-  padding-top: 10px;
-  text-align: center;
-  width: 90%;
-
-}
-.addthis_button_google_plusone_share, .addthis_button_linkedin
-{
-  display:none;
-}
-.leftColumn_Info  { padding-top:1px;  }
-
-/* MEDIA QUERIES */
-@media screen and (min-width: 47.5em )
-{
-  .rightColumn { position: absolute; top: 0; right: 0; }
-  .leftColumn { margin-right: 310px; min-height: 520px;}
-  .leftColumn_Info  {   margin-right: 310px; }
-  .videoColumn { margin-right: 330px; }
-
-}
-@media screen and (max-width : 880px) {
-   	.leftColumn 	{ margin-right: 0; border: 0px;}
-  	.rightColumn	{ height: 260px; border: 0px;}
-  	.columnsContainer {    border: 1px solid  #ccc; }
-
-}
-@media screen and (max-width : 672px) {
-
-  	.rightColumn_Ads_2 { display: none; }
-  	.rightColumn {   border: 0px; }
-
+ .videoWrapper iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 98%;
+     height: 98%;
+     max-height: 512px;
+     overflow:hidden;
+     border:0;
 }
 
-.rightColumn_Ads_1,.rightColumn_Ads_2
-{
-	margin-right: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	overflow:hidden;
-	border: none;
-	width:300px;
-	height:250px;
-}
-.rightColumn_Ads_1
-{
-  margin-top: 10px
-}
-.player
-{
-  max-width: 1000px;
-  margin: 0 auto;
-}​
-
-
-/* video / album details */
-
-
-
-.block-details .item span.modeltxt:after {
-  display: none;
+ .videoColumn {
+     max-height: 512px;
 }
 
-
-.block-details {
-  overflow: hidden;
-  width: 90%;
+ .columnsContainer {
+     position: relative;
+     margin: .5em;
+}
+ .leftColumn {
+     margin-bottom: .5em;
+     border: none;
+     background-color: white;
+}
+ .rightColumn {
+     width: 312px;
+     border: none;
+     background-color: white;
+     text-align: center;
+     margin: 0 auto;
+}
+ .player_bookshare {
+     padding-top: 10px;
+     text-align: center;
+     width: 90%;
+}
+ .addthis_button_google_plusone_share, .addthis_button_linkedin {
+     display:none;
+}
+ .leftColumn_Info {
+     padding-top:1px;
+}
+ .rightColumn_Ads_1,.rightColumn_Ads_2 {
+     margin-right: 5px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     overflow:hidden;
+     border: none;
+     width:300px;
+     height:250px;
+}
+ .rightColumn_Ads_1 {
+     margin-top: 10px;
+}
+ .player {
+     max-width: 1000px;
+     margin: 0 auto;
 }
 
+ .block-details {
+     overflow: hidden;
+     width: 90%;
+}
 .block-details .info {
-  overflow: hidden;
+     overflow: hidden;
 }
-
-.block-details .item {
-  width: 100%;
-  overflow: hidden;
-  padding: 10px 0;
-  text-align: center;
+ .block-details .item {
+     width: 100%;
+     overflow: hidden;
+     padding: 10px 0;
+     text-align: center;
 }
-
-.block-details .item:first-child {
-  background: none;
+ .block-details .item:first-child {
+     background: none;
 }
-
-.block-details .item img {
-  margin: 1px;
+ .block-details .item img {
+     margin: 1px;
 }
+ .block-details .item a {
+     display: inline-block;
+     color: #000000;
+     margin: 7px 0 2px 3px;
 
-.block-details .item a {
-  display: inline-block;
-  color: #000000;
-  margin: 7px 0 2px 3px;
-  /*font-weight: bold;*/
-  text-decoration: none;
-  background: #ffffff;
-  padding: 3px 10px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  white-space: nowrap;
+     text-decoration: none;
+     background: #ffffff;
+     padding: 3px 10px;
+     border-radius: 3px;
+     white-space: nowrap;
 }
-
-.block-details .item a.color_1 { border: 1px solid #ccc;}
-.block-details .item a.color_2 { border: 1px solid #F742DF;}
-.block-details .item a.color_3 { border: 1px solid #4BF85E;}
-.block-details .item a.color_4 { border: 1px solid #F92128;}
-.block-details .item a.color_5 { border: 1px solid #E6F94D;}
-.block-details .item a.color_6 { border: 1px solid #28C4FA;}
-
-.block-details .item a:hover {
-  color: #2095f0;
+ .block-details .item a.color_1 {
+     border: 1px solid #ccc;
 }
-
-.block-details .item span {
-  float: left;
-  padding-right: 48px;
-  position: relative;
+ .block-details .item a.color_2 {
+     border: 1px solid #F742DF;
 }
-
-.block-details .item span:after {
-  display: block;
-  content: '|';
-  position: absolute;
-  right: 24px;
-  top: 0;
-  color: #353535;
+ .block-details .item a.color_3 {
+     border: 1px solid #4BF85E;
 }
-
-.video_title
-{
-  border-bottom:none;
-  box-shadow:none;
-  text-transform: capitalize;
-  background:none;
-  text-align: center;
+ .block-details .item a.color_4 {
+     border: 1px solid #F92128;
 }
-
-.addthis_button_favorites, .addthis_button_facebook,  .addthis_button_twitter, .addthis_button_google, .addthis_button_delicious, .addthis_button_digg, .addthis_button_stumbleupon, .addthis_button_google_plusone_share, .addthis_button_linkedin, .addthis_button_expanded
-{
-   padding-right: 2px;
-  padding-left: 2px;
+ .block-details .item a.color_5 {
+     border: 1px solid #E6F94D;
 }
-
-
-@media screen and (min-width: 0px) and (max-width: 500px)
-{
-  .video_title,.addthis_button_delicious, .addthis_button_digg, .addthis_button_stumbleupon, .addthis_button_google_plusone_share, .addthis_button_linkedin
-  {
-    display:none;
-  }
+ .block-details .item a.color_6 {
+     border: 1px solid #28C4FA;
 }
-
-@media screen and (min-width: 0px) and (max-width: 1340px)
-{
-  .player
-  {
-    max-width: 1000px;
-  }​
+ .block-details .item a:hover {
+     color: #2095f0;
 }
-
-@media screen and (min-width: 1341px) and (max-width: 1700px)
-{
-  .player
-  {
-    max-width: 1320px;
-  }​
+ .block-details .item span {
+     float: left;
+     padding-right: 48px;
+     position: relative;
 }
+ .block-details .item span:after {
+     display: block;
+     content: '|';
+     position: absolute;
+     right: 24px;
+     top: 0;
+     color: #353535;
+}
+ .video_title {
+     border-bottom:none;
+     box-shadow:none;
+     text-transform: capitalize;
+     background:none;
+     text-align: center;
+}
+ .addthis_button_favorites, .addthis_button_facebook, .addthis_button_twitter, .addthis_button_google, .addthis_button_delicious, .addthis_button_digg, .addthis_button_stumbleupon, .addthis_button_google_plusone_share, .addthis_button_linkedin, .addthis_button_expanded {
+     padding-right: 2px;
+     padding-left: 2px;
+}
+ @media screen and (min-width: 0px) and (max-width: 500px) {
+     .video_title,.addthis_button_delicious, .addthis_button_digg, .addthis_button_stumbleupon, .addthis_button_google_plusone_share, .addthis_button_linkedin {
+         display:none;
+    }
+}
+ @media screen and (min-width: 0px) and (max-width: 1340px) {  .player {  max-width: 1000px;}}
+ @media screen and (min-width: 1341px) and (max-width: 9999px) {.player {max-width: 1320px;}}
 
-@media screen and (min-width: 1700px) and (max-width: 9999px)
-{
-  .player
-  {
-    max-width: 1660px;
-  }​
-
-  .rightColumn_Ads_1
-   {
-      padding-top: 25px;
-  }
-  .rightColumn_Ads_2 {
-      padding-top: 25px;
-  }
-
-  .videoWrapper iframe
-  {
-    padding-top: 25px;
-  }
+ @media screen and (min-width: 47.5em ) {
+     .rightColumn {
+         position: absolute;
+         top: 0;
+         right: 0;
+    }
+     .leftColumn {
+         margin-right: 310px;
+         min-height: 520px;
+    }
+     .leftColumn_Info {
+         margin-right: 310px;
+    }
+     .videoColumn {
+         margin-right: 320px;
+    }
+}
+ @media screen and (max-width : 630px) {
+     .rightColumn_Ads_2 {
+         display: none;
+    }
+     .rightColumn {
+         border: 0px;
+         padding-bottom: 20px;
+    }
+}
+ @media screen and (min-width: 631px) and (max-width: 759px) {
+     .rightColumn_Ads_2 {
+         display: none;
+    }
+     .block-details, .player_bookshare {
+         width: 100%;
+    }
+}
+ @media screen and (min-width: 760px) and (max-width: 880px) {
+     .leftColumn {
+         margin-right: 0;
+         border: 0px;
+    }
+     .rightColumn {
+         height: 260px;
+         border: 0px;
+    }
+     .columnsContainer {
+         border: 1px solid #ccc;
+    }
 }

@@ -13,8 +13,8 @@
 	height: 100%;
 }
 .columnsContainer			{ position: relative; margin: .5em;   }
-.leftColumn					{ margin-bottom: .5em;  border: 1px solid  #ccc; padding: 1em;  background-color: white; }
-.rightColumn				{ height: 95%; border: 1px solid  #ccc; padding: 1.05em;  background-color: white; text-align: center; }
+.leftColumn					{ margin-bottom: .5em;  border: none; padding: 1em;  background-color: white; }
+.rightColumn				{ height: 95%; border: border: none; padding: 1.05em;  background-color: white; text-align: center; }
 
 
 .player_bookshare
@@ -34,10 +34,10 @@
 /* MEDIA QUERIES */
 @media screen and (min-width: 47.5em )
 {
-	.rightColumn { position: absolute; top: 0; right: 0; width: 300px;  }
-  	.leftColumn { margin-right: 310px; min-height: 520px;}
-  	.leftColumn_Info  {   margin-right: 310px; }
-  	.videoColumn { margin-right: 330px; }
+  .rightColumn { position: absolute; top: 0; right: 0; width: 300px;  }
+  .leftColumn { margin-right: 310px; min-height: 520px;}
+  .leftColumn_Info  {   margin-right: 310px; }
+  .videoColumn { margin-right: 330px; }
 
 }
 @media screen and (max-width : 880px) {
@@ -58,7 +58,7 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 	overflow:hidden;
-	border:0;
+	border: none;
 	width:300px;
 	height:250px;
 }

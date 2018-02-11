@@ -20,8 +20,14 @@
 .player_bookshare
 {
 
-	padding-top: 20px;
-	text-align: center;
+  padding-top: 10px;
+  text-align: center;
+  width: 90%;
+
+}
+.addthis_button_google_plusone_share, .addthis_button_linkedin
+{
+  display:none;
 }
 .leftColumn_Info  { padding-top:20px;  }
 

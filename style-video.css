@@ -194,4 +194,13 @@
   {
     max-width: 1660px;
   }​
+
+  .rightColumn_Ads_1, .rightColumn_Ads_2 {
+      padding-top: 25px;
+  }
+
+  .videoWrapper iframe
+  {
+    padding-top: 25px;
+  }
 }

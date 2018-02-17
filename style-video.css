@@ -136,6 +136,7 @@
      text-transform: capitalize;
      background:none;
      text-align: center;
+    overflow: auto;
 }
  .addthis_button_favorites, .addthis_button_facebook, .addthis_button_twitter, .addthis_button_google, .addthis_button_delicious, .addthis_button_digg, .addthis_button_stumbleupon, .addthis_button_google_plusone_share, .addthis_button_linkedin, .addthis_button_expanded {
      padding-right: 2px;
@@ -166,7 +167,7 @@
          margin-right: 320px;
     }
 }
- @media screen and (max-width : 630px) {
+ @media screen and (max-width : 643px) {
      .rightColumn_Ads_2 {
          display: none;
     }
@@ -175,24 +176,31 @@
          padding-bottom: 20px;
     }
 }
- @media screen and (min-width: 631px) and (max-width: 759px) {
-     .rightColumn_Ads_2 {
-         display: none;
-    }
-     .block-details, .player_bookshare {
-         width: 100%;
-    }
-}
- @media screen and (min-width: 760px) and (max-width: 880px) {
+ 
+ @media screen and (min-width: 644px) and (max-width: 880px) {
      .leftColumn {
          margin-right: 0;
          border: 0px;
     }
      .rightColumn {
-         height: 260px;
-         border: 0px;
+        position: unset;
+        width: 620px;
+        border: 0px;
     }
      .columnsContainer {
          border: 1px solid #ccc;
+    }
+    .leftColumn_Info {
+        margin-right: 0px;
+    }
+    .videoColumn {
+        margin-right: 0px;
+    }
+    .player_bookshare {
+        width: 100%;
+    }
+    .block-details
+    {
+        width: 100%;
     }
 }

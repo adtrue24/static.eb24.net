@@ -20,6 +20,7 @@
 
  .videoColumn {
      max-height: 512px;
+     text-align: center;
 }
 
  .columnsContainer {
@@ -37,6 +38,8 @@
      background-color: white;
      text-align: center;
      margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
  .player_bookshare {
      padding-top: 10px;
@@ -202,5 +205,28 @@
     .block-details
     {
         width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 730px)
+{
+    #ad_320{
+        display:inline-block; 
+        padding-top: 10px;
+    }
+    #ad_728{
+        display:none;
+    }
+}
+@media screen and (min-width: 731px) and (max-width: 9999px)
+{
+    #ad_728{
+        display:inline-block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #ad_320{
+        display:none;
     }
 }

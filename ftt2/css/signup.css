@@ -1,0 +1,275 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+    font-size: 14px;
+    background: #fafafa;
+    color: #444;
+    margin: 5px;
+}
+
+/*************** Alerts **********************/
+#popup_container {
+    font-size: 1em;
+    min-width: 300px;
+    max-width: 600px;
+    background: #FFF;
+    border: solid 1px #999;
+    color: #000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#popup_title {
+    padding: 0.3em;
+    margin: 0em;
+    text-align: center;
+}
+
+#popup_content {
+    padding: 0.7em 1.4em;
+    font-size: 14px;
+    margin: 0em;
+    background: 16px 16px no-repeat url(alerts-images/info.gif);
+}
+
+#popup_content.alert {
+    background: 16px 16px no-repeat url(alerts-images/info.gif);
+}
+
+#popup_content.confirm {
+    background: 16px 16px no-repeat url(alerts-images/important.gif);
+}
+
+#popup_content.prompt {
+    background: 16px 16px no-repeat url(alerts-images/help.gif);
+}
+
+#popup_message {
+    padding-left: 48px;
+}
+
+#popup_panel {
+    text-align: center;
+    margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+    margin: .5em 0em;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #eec632;
+    font-family: Arial, Lucida Grande, Verdana, Geneva, Sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    padding: 5px;
+    display: inline;
+}
+
+h2 {
+    color: #000;
+    border-bottom: 1px solid #999;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 15px;
+    padding: 5px 0 6px;
+}
+
+#signup-logo {
+    background: url(ftt2-logo.png) no-repeat 0 0;
+    width: 202px;
+    height: 33px;
+}
+
+div#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#signup-header ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+}
+
+#signup-header li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#signup-header {
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+#signup-header a {
+    color: #80a5a4;
+}
+
+#signup-footer {
+    margin-top: 6px;
+    padding: 4px;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+}
+
+#signup-footer a {
+    color: #406584;
+}
+
+#signup-tabs {
+    font-size: 14px;
+}
+
+#tab-signup, #tab-login, #tab-stats {
+    padding: 5px;
+}
+
+.ui-tabs-panel table {
+    width: 100%;
+}
+
+.ui-tabs-panel table th {
+    width: 187px;
+    text-align: left;
+    background: #eee;
+    padding: 0 0 0 7px;
+    font-weight: bold;
+    font-size: 14px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ui-tabs-panel table th.required:before {
+    content: '*';
+    color: #f22;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.ui-tabs-panel table td {
+    padding: 3px;
+}
+
+input[type=checkbox] {
+    margin: 8px;
+}
+
+input[type=text], textarea, input[type=password] {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #666;
+    width: 560px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+select {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #666;
+    width: 400px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#tab-signup table.trade-info th {
+    width: 187px;
+    text-align: left;
+    background: #eee;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#tab-signup table.trade-info td {
+    padding-left: 20px;
+}
+
+button {
+    padding: 3px;
+}
+
+#owners-information {
+    padding: 7px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#trade-rules-caption {
+    padding: 7px;
+    font-weight: bold;
+}
+
+#trade-rules {
+    border: 1px solid #aaa;
+    background: #fafafa;
+    margin-bottom: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+div#signup-tabs {
+    background: #fafafa;
+}
+
+#signup-form th label {
+    line-height: 1.5;
+}
+
+#signup-form th {
+    padding: 4px;
+}
+
+.submit button {
+    padding: 6px 11px;
+}
+
+a.help {
+    color: #f22;
+    margin-left: 10px;
+}
+
+.error {
+    background: #FEF1EC;
+    border: 1px solid #CD0A0A;
+    color: #CD0A0A;
+    padding: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ok {
+    background: #F1FBE5;
+    border: 1px solid #8CCE3B;
+    color: #030303;
+    padding: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+p {
+    padding: 3px;
+    margin: 10px 0 10px 0;
+}

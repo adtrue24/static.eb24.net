@@ -1,0 +1,136 @@
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.columnsContainer			{ position: relative; margin: .5em;   }
+.leftColumn, .rightColumn	{  padding: 1.25em;    }
+.leftColumn					{ margin-bottom: .5em;   }
+.rightColumn				{  height: 95%; }
+.rightTopList				{ text-align: left;    font-size: 13px;line-height: 24px;}
+.rightTopList ul			{ width:90%; height:90%; }
+.rightTopList ul			{ height: auto;  overflow:hidden;}
+.rightTopList ul li
+{
+	border-bottom: 1px solid #f0f0f0;
+    font-size: 13px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 5px;
+    margin-bottom: 3px;
+    text-indent: 3px;
+}
+
+.rightColumn	{ display:none }
+.player{
+    max-width: 1000px;
+}​
+
+
+/* video / album details */
+
+
+
+.block-details .item span.modeltxt:after {
+  display: none;
+}
+
+
+.block-details {
+  margin: -10px 0;
+  overflow: hidden;
+}
+
+.block-details .info {
+  overflow: hidden;
+}
+
+.block-details .item {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  background: url(images/divider.png) repeat-x;
+}
+
+.block-details .item:first-child {
+  background: none;
+}
+
+.block-details .item img {
+  margin: 1px;
+}
+
+.block-details .item a {
+  display: inline-block;
+  color: #000000;
+  margin: 7px 0 2px 3px;
+  /*font-weight: bold;*/
+  text-decoration: none;
+  background: #ffffff;
+  padding: 3px 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  white-space: nowrap;
+}
+
+.block-details .item a.color_1 { border: 1px solid #ccc;}
+.block-details .item a.color_2 { border: 1px solid #F742DF;}
+.block-details .item a.color_3 { border: 1px solid #4BF85E;}
+.block-details .item a.color_4 { border: 1px solid #F92128;}
+.block-details .item a.color_5 { border: 1px solid #E6F94D;}
+.block-details .item a.color_6 { border: 1px solid #28C4FA;}
+
+.block-details .item a:hover {
+  color: #2095f0;
+}
+
+.block-details .item span {
+  float: left;
+  padding-right: 48px;
+  position: relative;
+}
+
+.block-details .item span:after {
+  display: block;
+  content: '|';
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: #353535;
+}
+
+.columnsContainer {
+     
+    text-align: center;
+}
+
+.player_bookshare
+{
+	margin-top: 15px;
+}
+
+
+.video_title {
+    border-bottom: none;
+    box-shadow: none;
+    text-transform: capitalize;
+    background: 0 0;
+    text-align: center;
+    overflow: auto;
+}
+
+.player {
+  
+    margin: 0 auto;
+}

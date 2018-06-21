@@ -507,7 +507,7 @@ $(document).ready(function() {
     r_init = function() {
         $("[data-id]").each(function() {
             e[$(this).data("id")] = new Array($(this).children("img:first").height(), $(this).offset().top, $(this).data("sid"));
-            //$(this).parent().append('<a href="http://report.webclicks24.com/?id=' + $(this).data("id") + '" class="report" target="_blank"></a>')
+            $(this).parent().append('<a href="//tube.bz/report/' + $(this).data("id") + '" class="report" target="_blank"></a>')
         });
 
         $("[data-id]").click(function(w) {
